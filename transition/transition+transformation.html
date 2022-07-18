@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition+Transformational</title>
+    <style>
+        body{
+            background-color: black;
+
+        }
+        .box
+        {
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 2s, height 2s, transform 2s;
+            box-shadow: 0 10px 10px black;
+        }
+        .box:hover{
+            width: 400px;
+            height: 400px;
+            transform: rotate(360deg);
+            border-radius: 50px;
+            background-color: greenyellow;
+        }
+        .box h1{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>We are going to see the transition + Transformation</h1>
+    <div class="box">
+    <h1>Hello,Duniya! </h1>
+       
+
+    </div>
+    
+</body>
+</html>

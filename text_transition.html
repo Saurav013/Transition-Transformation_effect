@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Transition</title>
+    <style>
+        body{
+            background-color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            
+        }
+        hr{
+            width: 400px;
+            color: aqua;
+        }
+        .trans h1{
+            border-radius: 10px;
+            text-align: center;
+            color: darkblue;
+            box-shadow: 0 20px 20px black;
+            width:200px;
+            height: 80px;
+            background-color: green;
+            transition: width 2s, height 4s;
+            margin: auto;
+        }
+        .trans h1:hover{
+            width: 400px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Transition</h1>
+    <hr>
+    <div class="trans">
+        <h1>I'm Frontend Developer!</h1>
+
+    </div>
+    
+</body>
+</html>
